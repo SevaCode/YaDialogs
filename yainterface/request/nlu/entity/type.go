@@ -1,4 +1,4 @@
-package entities // import "github.com/SevaCode/YaDialogs/yainterface/request/nlu/entities"
+package entity // import "github.com/SevaCode/YaDialogs/yainterface/request/nlu/entity"
 
 import "strings"
 

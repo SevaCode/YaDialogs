@@ -1,6 +1,9 @@
 package yainterface // import "github.com/SevaCode/YaDialogs/yainterface"
 
-import "github.com/SevaCode/YaDialogs/yainterface/request"
+import (
+	"github.com/SevaCode/YaDialogs/yainterface/common"
+	"github.com/SevaCode/YaDialogs/yainterface/request"
+)
 
 // Request содержит данные, полученные от пользователя.
 type Request struct {
@@ -22,7 +25,7 @@ type Request struct {
 
 	// JSON, полученный с нажатой кнопкой от обработчика навыка
 	// (в ответе на предыдущий запрос), максимум 4096 байт.
-	Payload request.Payload `json:"payload,omitempty"`
+	Payload common.Payload `json:"payload,omitempty"`
 
 	// Слова и именованные сущности, которые Диалоги извлекли
 	// из запроса пользователя.

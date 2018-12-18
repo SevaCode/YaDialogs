@@ -1,4 +1,4 @@
-package entities // import "github.com/SevaCode/YaDialogs/yainterface/request/nlu/entities"
+package entity // import "github.com/SevaCode/YaDialogs/yainterface/request/nlu/entity"
 
 // Обозначение начала и конца именованной сущности в массиве слов.
 // Нумерация слов в массиве начинается с 0.
